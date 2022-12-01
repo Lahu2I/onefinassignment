@@ -39,7 +39,7 @@ class CollectionAPIView(APIView):
         Create a new collection and movie instance
         '''
         try:
-            print('hello')
+            
             response = add_collection(request)
             
             return response
